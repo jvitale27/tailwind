@@ -1,0 +1,14 @@
+/* formato comun a toda la tabla */
+.table th, .table td{
+	@apply border border-gray-400 px-4 py-2;
+}
+
+/* resalto los titulos de columnas */
+.table th{
+	@apply text-blue-900;
+}
+
+/* pinto solo las filas impares */
+.table tbody tr:nth-child(2n+1){
+	@apply bg-gray-200;
+}

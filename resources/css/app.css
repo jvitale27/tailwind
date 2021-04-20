@@ -1,0 +1,23 @@
+/* ./resources/css/app.css */
+/*
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "estilos.css";
+
+h1{
+	@apply font-sans text-3xl font-bold mb-4;
+}
+
+p{
+	@apply font-serif leading-tight ml-5 mb-4;
+}
+
+li{
+	@apply font-mono text-sm italic;
+}
