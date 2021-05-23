@@ -85,7 +85,11 @@
 
         <p>FUENTES</p>
         <div class="container">
-          <h1 class="font-sans text-6xl md:text-3xl font-bold mb-4">Este es un titulo de prueba</h1>
+          {{-- el h1 que defini en /resources/css/app.css --}}
+          <h1>los estilos 'h1', 'p' y 'li' estan definidos en /resources/css/app.css</h1>
+          {{-- el h1 que defini, pero modificado --}}
+          <h1 class="text-6xl">h1 modificado</h1>
+
           <p class="font-serif leading-tight ml-5 mb-4">fdj sf oasi d;oahfuh oalisudfg lasdg  eifj fhiauhfiufha iuefh isu jksadbh oig asdf gsdifg asdfg kdf sdifwou eyfpiweufy uiywqoiufey iufhoiwuf wieufh weiuf owefgwhfb wiegf ewiufh wieuf h shfgsdjhg bvv sjbcds akvbasdj vbaskj</p>
           <p class="font-mont leading-tight ml-5 mb-4">fdj sf oasi d;oahfuh oalisudfg lasdg  eifj fhiauhfiufha iuefh isu jksadbh oig asdf gsdifg asdfg kdf sdifwou eyfpiweufy uiywqoiufey iufhoiwuf wieufh weiuf owefgwhfb wiegf ewiufh wieuf h shfgsdjhg bvv sjbcds akvbasdj vbaskj</p>
           <ul>
@@ -330,7 +334,7 @@
         </div>
 
         <div class="container bg-gray-400">
-          <img class="w-full h-64" src="https://cdn.pixabay.com/photo/2021/02/12/09/36/sunflowers-6007847_960_720.jpg" alt=''>
+          <img class="mt-1 w-full h-64" src="https://cdn.pixabay.com/photo/2021/02/12/09/36/sunflowers-6007847_960_720.jpg" alt=''>
           <img class="mt-1 w-full h-64 object-contain" src="https://cdn.pixabay.com/photo/2021/02/12/09/36/sunflowers-6007847_960_720.jpg" alt=''>
           <img class="mt-1 w-full h-64 object-cover" src="https://cdn.pixabay.com/photo/2021/02/12/09/36/sunflowers-6007847_960_720.jpg" alt=''>
           <img class="mt-1 w-full h-64 object-cover object-top" src="https://cdn.pixabay.com/photo/2021/02/12/09/36/sunflowers-6007847_960_720.jpg" alt=''>
