@@ -1,14 +1,14 @@
-/* formato comun a toda la tabla */
+/* defino la clase 'table' que da formato comun a toda la tabla */
 .table th, .table td{
 	@apply border border-gray-400 px-4 py-2;
 }
 
-/* resalto los titulos de columnas */
+/* resalto los titulos de columnas de 'table' */
 .table th{
 	@apply text-blue-900;
 }
 
-/* pinto solo las filas impares */
+/* pinto solo las filas impares de 'table' */
 .table tbody tr:nth-child(2n+1){
 	@apply bg-gray-200;
 }

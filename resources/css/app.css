@@ -8,16 +8,21 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import "estilos.css";
+@import "estilos.css";		/* incluyo algunos estilos personalizados*/
 
-h1{
-	@apply font-sans text-3xl font-bold mb-4;
-}
 
-p{
-	@apply font-serif leading-tight ml-5 mb-4;
-}
+/*Al usar la directiva @layer, Tailwind moverá automáticamente esos estilos al mismo 
+lugar '@tailwind base' para evitar problemas no deseados.*/
+@layer base {
+	h1{
+		@apply font-sans text-3xl font-bold mb-4;
+	}
 
-li{
-	@apply font-mono text-sm italic;
+	p{
+		@apply font-serif leading-tight ml-5 mb-4;
+	}
+
+	li{
+		@apply font-mono text-sm italic;
+	}
 }

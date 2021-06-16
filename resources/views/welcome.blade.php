@@ -150,6 +150,15 @@
         <div class="container">
           <h1 class="text-3xl text-center font-bold">Titulo</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo officia ullam consequatur explicabo, doloremque laboriosam laborum cumque soluta possimus sit hic. Ab repellendus provident voluptates est porro iure ratione?</p>
+          <div class="grid grid-flow-col auto-cols-max gap-x-6 mb-4">
+            <img src="{{ asset('img/20200723_205956.jpg') }}" class="w-40" alt="">
+            <img src="{{ asset('img/20200723_205956.jpg') }}" class="h-80 w-80" alt="">
+            <img src="{{ asset('img/20200723_205956.jpg') }}" class="h-80 w-80" alt="">
+            <div class="w-80 bg-green-200">
+              <img src="{{ asset('img/20200723_205956.jpg') }}" class="h-auto" alt="">
+            </div>
+            <img src="{{ asset('img/20200723_205956.jpg') }}" class="w-1/5 bg-red-200" alt="">
+          </div>
           <div class="grid grid-flow-col auto-cols-max gap-x-6">
             <div class="imagen bg-contain border border-blue-600"></div>
             <div class="imagen bg-contain bg-no-repeat border-8 border-blue-600"></div>
